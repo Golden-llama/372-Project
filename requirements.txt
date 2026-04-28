@@ -1,15 +1,33 @@
-torch
-transformers
-datasets
-accelerate
-peft
-sentence-transformers
-faiss-cpu
-numpy
-pandas
-scikit-learn
-matplotlib
-tqdm
-openai
-jupyter
-ipykernel
+
+
+# AI Learning Coach — Requirements
+# Python 3.10+ recommended
+# Install with: pip install -r requirements.txt
+# Note: run on Google Colab with a GPU runtime for best results
+ 
+# Core ML
+torch>=2.0.0
+transformers>=4.40.0
+peft>=0.10.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+datasets>=2.19.0
+ 
+# RAG & Retrieval
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+ 
+# Evaluation
+evaluate>=0.4.0
+rouge-score>=0.1.2
+bert-score>=0.3.13
+ 
+# Document loading
+PyMuPDF>=1.24.0
+ 
+# UI
+gradio>=4.0.0
+ 
+# Utilities
+numpy>=1.24.0
+matplotlib>=3.7.0
