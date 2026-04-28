@@ -51,6 +51,8 @@ bert-score>=0.3.13c
 
 PyMuPDF (fitz)>=1.24.0
 
-Gradio>=4.0.0Chat UINumPy>=1.24.0
+Gradio>=4.0.0
+
+NumPy>=1.24.0
 
 Matplotlib>=3.7.0
