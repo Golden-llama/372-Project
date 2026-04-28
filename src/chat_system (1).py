@@ -199,6 +199,7 @@ def generate(prompt, temperature=0.1, max_new_tokens=300):
         truncation=True,
         max_length=MAX_CONTEXT_TOKENS
     ).to(device)
+    input_length = inputs["input_ids"].shape[1] 
 
     with torch.no_grad():
         out = model.generate(
@@ -210,11 +211,13 @@ def generate(prompt, temperature=0.1, max_new_tokens=300):
             repetition_penalty=1.1,
             pad_token_id=tokenizer.eos_token_id
         )
+    new_tokens = out[0][input_length:]
 
-    decoded = tokenizer.decode(out[0], skip_special_tokens=True)
+    decoded = tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
     if "### Response:" in decoded:
         return decoded.split("### Response:")[-1].strip()
     return decoded
+
 
 """chat function"""
 
