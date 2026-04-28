@@ -35,6 +35,8 @@ Steps, training loss, and validation loss from finetuning the Tinyllama model on
 <img width="2564" height="890" alt="image" src="https://github.com/user-attachments/assets/29a0b690-319d-4b00-ba02-2c6b62f16aca" />
 As we can see, the training loss drastically decreases in the first few training steps 0-200, but from 200-800 steps it fluctuates while still following a general trend of decline in loss. The validation loss, on the other hand, follows a smoother and more consistent decline over steps, showing the improvement of the model and increased accuracy over training.
 
+
+
 After testing the finetuned llama model with the prompt style and inputing "Explain the concept of gradient descent to a student who is learning for the first time." , the output is:
 
 "Gradient descent is a popular algorithm used in machine learning and optimization. It works by finding the direction of least curvature, which is a tangent line to a curve at a given point, towards the point where the curve changes direction. The algorithm starts from an initial guess and iteratively updates the current estimate until it converges or reaches a local minimum. Gradient descent has several advantages over other methods such as stochastic gradient descent (SGD), where the update rule involves averaging gradients. One of the main advantages of gradient descent is its ability to handle non-convex problems, while SGD may not converge on some cases. Additionally, gradient descent can be used in situations where there are no initial estimates or when the data set is large, making it more efficient than other algorithms. In summary, gradient descent is an effective method for finding local minima or maxima in functions that have a smooth curvature, and it is easy to implement in many programming languages. It is one of the most widely used algorithms in machine learning and optimization. Students new to machine learning should learn about gradient descent and the related concepts before moving on to more advanced topics."
@@ -74,7 +76,7 @@ interest (which makes humans’ judgment extrem...
 
 When generating text with few-shot, the output is:
 
-### Instruction:
+Instruction:
 You are a helpful learning coach. Here are examples of good answers:
 
 Q: What is the ship of Theseus?
@@ -85,7 +87,7 @@ A: Existentialism is a philosophical movement that focuses on individualfreedom,
 
 Now answer this question using only the notes below.
 
-### Input:
+ Input:
 [Source 1]
 HEDONISM It’s all about pleasure and pain
 The term hedonism actually refers to several theories that, while different from
@@ -190,7 +192,11 @@ As we can see, rouge scores improved with iteration 2, and adding a reranker imp
 Then when testing the model with Rouge scores, BERTscore, and Faithful scores, the output is as follows:
 
 Question                             ROUGE-L  BERTScore   Faithful
+
+
 What did Hobbes believe?               0.025      0.818      0.966
+
+
 What is hedonism                       0.040      0.824      0.886
 
 
