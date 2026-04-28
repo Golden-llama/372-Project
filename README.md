@@ -191,13 +191,8 @@ As we can see, rouge scores improved with iteration 2, and adding a reranker imp
 
 Then when testing the model with Rouge scores, BERTscore, and Faithful scores, the output is as follows:
 
-Question                             ROUGE-L  BERTScore   Faithful
+<img width="986" height="136" alt="image" src="https://github.com/user-attachments/assets/4ecb3f6b-76d7-4bfb-988f-477f9fddea1a" />
 
-
-What did Hobbes believe?               0.025      0.818      0.966
-
-
-What is hedonism                       0.040      0.824      0.886
 
 
 
