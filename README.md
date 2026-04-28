@@ -37,7 +37,7 @@ As we can see, the training loss drastically decreases in the first few training
 
 
 
-After testing the finetuned llama model with the prompt style and inputing "Explain the concept of gradient descent to a student who is learning for the first time." , the output is:
+After testing the finetuned llama model with the prompt style and inputing "Explain the concept of gradient descent to a student who is learning for the first time." the output is:
 
 "Gradient descent is a popular algorithm used in machine learning and optimization. It works by finding the direction of least curvature, which is a tangent line to a curve at a given point, towards the point where the curve changes direction. The algorithm starts from an initial guess and iteratively updates the current estimate until it converges or reaches a local minimum. Gradient descent has several advantages over other methods such as stochastic gradient descent (SGD), where the update rule involves averaging gradients. One of the main advantages of gradient descent is its ability to handle non-convex problems, while SGD may not converge on some cases. Additionally, gradient descent can be used in situations where there are no initial estimates or when the data set is large, making it more efficient than other algorithms. In summary, gradient descent is an effective method for finding local minima or maxima in functions that have a smooth curvature, and it is easy to implement in many programming languages. It is one of the most widely used algorithms in machine learning and optimization. Students new to machine learning should learn about gradient descent and the related concepts before moving on to more advanced topics."
 
