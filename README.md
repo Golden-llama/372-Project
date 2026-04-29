@@ -29,6 +29,8 @@ After running the last notebook, a user interface will be output that allows the
 
 Demo video link: https://duke.zoom.us/rec/share/xcEn6Bjn-8piGb8dahZ9VenerXGen9XZ3EjLHzmzSC-3JnQAOp5EO7wEc189SBY.BLsV4SaD5p2KSA14?startTime=1777422845000 
 
+Technical video: https://duke.zoom.us/rec/share/vTam05lWGPJ4X1eg783E-hhyFO9_UafNvcK_zcEzx4CrrwGwEfJxqFPJQdl3c7J_.isUawWqx8RjXqur6?startTime=1777446215000
+
 
 ## Evaluation
 
