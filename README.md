@@ -27,6 +27,9 @@ After running the last notebook, a user interface will be output that allows the
 
 ## Video Links
 
+Demo video link: https://duke.zoom.us/rec/share/xcEn6Bjn-8piGb8dahZ9VenerXGen9XZ3EjLHzmzSC-3JnQAOp5EO7wEc189SBY.BLsV4SaD5p2KSA14?startTime=1777422845000 
+
+
 ## Evaluation
 
 Steps, training loss, and validation loss from finetuning the Tinyllama model on the alpaca dataset:
